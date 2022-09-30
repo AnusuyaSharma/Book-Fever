@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&display=swap');
+
+#Title{		background-color: #e1e5ea;
+			margin-bottom: 60px;
+      }
+
+.booklogo{	width:26%;
+            margin:2px 100px 2px 5px;}
+
+.text{		font-family: 'Bree Serif', serif;
+			text-align:center;
+			color:#511281;
+		    font-size: 1.4rem;}
+
+.big-heading{	font-family: 'Anton', sans-serif;
+				text-align:center;
+				color:#a58faa;
+			    font-size:5rem;}
+
+.book{		width:45%;
+			margin: 0 20px 5px 100px;}
+
+#Features{	text-align: center;
+			margin-bottom: 50px;}
+
+.heading{	font-family: 'Anton', sans-serif;
+			font-size: 2rem;
+			color:#21094e;}
+
+.small-text{	font-family: 'Playfair Display', serif;
+				font-size: 1rem;
+				color: #511281; }
+
+.icon{		color:#2a9df4;}
+
+
+#Genres{	margin: 40px auto;
+			background-image: url(file:///C:/Users/Anusuya/Desktop/MySite/images/bluewa3.png);
+			background-position: all;
+			height:700px;
+			padding:2px 5px 20px 200px;
+			background-repeat: no-repeat;
+			text-align:center;
+		}
+
+.image{		position: relative;
+			
+			
+		}
+
+.img{		display:block;
+			height:200px;
+			width:200px;
+			margin:20px;}
+
+.img-desc{	position:absolute;
+			top:0;
+			left:0;
+		    height:200px;
+			width:200px;
+			margin:20px 0 20px 31px;
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			background-color:rgba(0,0,0,0.5);
+			color:#fff;
+			font-size:1.5rem;
+			font-family:'Playfair Display', serif;
+			text-align:center;
+			transition: 0.25s;
+			opacity:0;
+		}
+
+.img-desc:hover{	opacity:1;}
+
+.hoverttext{	transform:translateY(20px);
+				transition: transform 0.25s;
+			}
+
+.img-desc:hover > *{	transform: translateY(0);}
+
+
+#Prices{		text-align:center;
+				margin:10px;
+		}
+
+.price{		font-family:'Playfair Display', serif;
+			font-size:35px;
+			font-weight:bold;}
+
+.button{	border-radius:1.6rem;}
+
+.up{		background-color: #a7bbc7;}
+
+#Quote  {	margin:100px 50px 30px 250px;
+			background-image: url(file:///C:/Users/Anusuya/Desktop/MySite/images/bookcover.jpg);
+			background-size: cover;
+			background-position: center;
+			height: 540px;
+			width:70%;
+			text-align: center;
+			align-items: center;
+		}
+
+.heading-quote{	text-align:center;
+				font-family: 'Anton', sans-serif;
+			   font-size: 4rem;
+			   color:#21094e;
+			   padding-top:200px;
+			   line-height:1.5;
+			}
+
+
+#testimonials{	background-image: url(file:///C:/Users/Anusuya/Desktop/MySite/images/pinkwa5.png);
+				padding:13% 7%;
+				background-repeat:no-repeat;
+				margin:10rem 0 3rem;
+				text-align: center;
+				height: 800px;
+				width: 1500px;}
+
+.cta{		   font-family: 'Anton', sans-serif;
+				text-align:center;
+				color:#fff;
+			    font-size:3rem;}
+
+.girlcta{		height: 190px;
+				width: 170px;
+				border-radius:90%;}
+
+#Final{			margin: 20px auto;
+				text-align: center;}
+
+.icons{			margin: 15px;}
+		                
